@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/card-match-single/static/js/main.1bc7aa90.js",
+    "static/media/goldfish.png": "/card-match-single/static/media/goldfish.dca640acca088e7537ee.png",
+    "static/media/koala.png": "/card-match-single/static/media/koala.409bcd1d3b47cffbc9dc.png",
+    "static/media/cat.png": "/card-match-single/static/media/cat.8e5bf3387127a9033005.png",
+    "static/media/owl.png": "/card-match-single/static/media/owl.27503c0354355a3bc850.png",
+    "static/media/penguin.png": "/card-match-single/static/media/penguin.08e7d036e186f77227be.png",
+    "static/media/whale.png": "/card-match-single/static/media/whale.15f045e2f715370c88bd.png",
+    "static/media/dragonfly.png": "/card-match-single/static/media/dragonfly.0468e944f31b32e80960.png",
+    "static/media/lizard.png": "/card-match-single/static/media/lizard.790fa52859c9f638d96c.png",
+    "index.html": "/card-match-single/index.html",
+    "main.1bc7aa90.js.map": "/card-match-single/static/js/main.1bc7aa90.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.1bc7aa90.js"
+  ]
+}
