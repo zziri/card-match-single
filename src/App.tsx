@@ -1,6 +1,7 @@
 import { CSSProperties } from 'react';
 import Board from './components/Board';
-import FinishModal from './components/FinishModal';
+import Restart from './components/Restart';
+import './App.css';
 
 const customStyle: CSSProperties = {
   position: 'relative',
@@ -10,9 +11,16 @@ const customStyle: CSSProperties = {
 
 function App() {
   return (
-    <div style={customStyle}>
-      <Board />
-      <FinishModal />
+    <div>
+      <div className='vertical-divide-top'>
+
+      </div>
+      <div className='vertical-divide-mid'>
+        <Board />
+      </div>
+      <div className='vertical-divide-bottom'>
+        <Restart />
+      </div>
     </div>
   );
 }
