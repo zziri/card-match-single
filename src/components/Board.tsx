@@ -1,19 +1,9 @@
 import { useRecoilState, useSetRecoilState } from "recoil";
 import CardView from "./CardView";
 import { boardSizeState, cardState, clickableState, finishedState } from "../atom";
-import { CSSProperties, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { finished, getShuffledCards, sleep } from "../utils";
 import { Card } from "../model";
-
-const customStyles: CSSProperties = {
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  right: 'auto',
-  bottom: 'auto',
-  marginRight: '-50%',
-  transform: 'translate(-50%, -50%)',
-};
 
 function Board() {
   const [boardSize] = useRecoilState<number>(boardSizeState);
@@ -71,7 +61,7 @@ function Board() {
   let seq = 0;
 
   return (
-    <div style={customStyles}>
+    <div>
       {rows.map((row) => (
         <div key={row} style={{ display: 'flex' }}>
           {columns.map((col) => (

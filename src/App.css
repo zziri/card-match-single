@@ -1,11 +1,14 @@
 .vertical-divide-top {
-  height: 30vh;
+  height: 25vh;
 }
 
 .vertical-divide-mid {
-  height: 40vh;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .vertical-divide-bottom {
-  height: 30vh;
+  height: 25vh;
 }
